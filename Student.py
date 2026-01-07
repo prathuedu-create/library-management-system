@@ -2,7 +2,7 @@
 # File: student.py
 
 students = []
-print("Welcome to Student Registration portal")
+print("Welcome - Version by Developer A")
 username = input("Enter username: ")
 password = input("Enter password: ")
 
