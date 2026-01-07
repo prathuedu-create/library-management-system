@@ -3,6 +3,13 @@
 
 students = []
 print("Welcome to Student Registration portal")
+username = input("Enter username: ")
+password = input("Enter password: ")
+
+if username == "admin" and password == "admin123":
+    print("Login successful")
+else:
+    print("Invalid login credentials")
 while True:
     print("\n- Student Registration Menu -")
     print("1. Register Student")
