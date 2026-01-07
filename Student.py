@@ -2,7 +2,7 @@
 # File: student.py
 
 students = []
-
+print("Welcome to Student Registration System")
 while True:
     print("\n--- Student Registration Menu ---")
     print("1. Register Student")
