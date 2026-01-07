@@ -2,9 +2,9 @@
 # File: student.py
 
 students = []
-print("Welcome to Student Registration System")
+print("Welcome to Student Registration portal")
 while True:
-    print("\n--- Student Registration Menu ---")
+    print("\n- Student Registration Menu -")
     print("1. Register Student")
     print("2. View All Students")
     print("3. Search Student")
@@ -42,6 +42,8 @@ while True:
                 print("Email   :", s["email"])
                 print("Course  :", s["course"])
                 print("-" * 40)
+
+        print("End of student list")
 
     elif choice == "3":
         search_roll = input("Enter Roll Number to search: ")
@@ -90,7 +92,7 @@ while True:
             print("Student not found.")
 
     elif choice == "6":
-        print("Exiting Student Registration System.")
+        print("Exiting Student Registration System. Thankyou")
         break
 
     else:
