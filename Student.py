@@ -2,7 +2,10 @@
 # File: student.py
 
 students = []
+
 print("Welcome - Version by Developer A")
+
+
 username = input("Enter username: ")
 password = input("Enter password: ")
 
