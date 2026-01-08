@@ -3,7 +3,7 @@
 
 students = []
 
-print("Welcome to Registration Portal")
+print("Hii I am Prathusha")
 
 
 username = input("Enter username: ")
