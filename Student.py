@@ -3,7 +3,7 @@
 
 students = []
 
-print("Welcome - Version by Developer A")
+print("Welcome to Registration Portal")
 
 
 username = input("Enter username: ")
